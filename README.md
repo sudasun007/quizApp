@@ -60,11 +60,14 @@ This is a **Quiz Application** built using **Spring Boot**, which allows users t
    [http://localhost:8080](http://localhost:8080)
 
 ---
+📦 Database Dump
 
-## 📌 API Testing
+The `questiondb` PostgreSQL dump is included in the `db/` folder.
 
-You can test the APIs using tools like:
+To restore:
 
-- [Postman](https://www.postman.com/)
+```bash
+psql -U your_username -d questiondb -f db/questiondb_dump.sql
+
 
 
